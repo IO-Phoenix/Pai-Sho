@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pai Sho</title>
+    <link rel="stylesheet" href="stylegame.css">
+   
+   
+</head>
+<body>
+    <header>
+        <div class="menu-bar" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>Pai Sho</h1>
+    </header>
+    <nav class="menu hidden">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" alt="404.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+   
+    </div>
+    <div class="board">
+        <img src="image usage/Board.png" alt="Pai Sho Board" class="Pai-Sho-Board"> 
+    </div>        
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+        </ul>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.menu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

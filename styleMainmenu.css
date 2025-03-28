@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    margin-top: 50px;
+}
+
+.menu-item {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    width: 200px;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #005a9e;
+}
